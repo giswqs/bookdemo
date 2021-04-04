@@ -12,3 +12,17 @@ logo                        : logo.png  # A path to the book logo
 
 parse:
   myst_extended_syntax: true
+
+# Online stuff
+repository:
+  url                       : https://github.com/giswqs/bookdemo
+  path_to_book              : bookdemo
+
+launch_buttons:
+  notebook_interface        : jupyterlab
+  binderhub_url             : https://mybinder.org
+
+html:
+  use_repository_button: true
+  use_issues_button: true
+  use_edit_page_button: true
